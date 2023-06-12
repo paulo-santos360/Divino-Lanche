@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+/* Cores
+   background-color: #0D0D0D;
+   color: #034001;
+   color: #D90D1E;
+   color-hover: #F2D091;
+   color: #0511F2;
+   color: #3498BF;
+*/
+
+body{
+    background-color: #f7f7f7;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background-color: #0D0D0D;
+ }
+
+header .navbar a{
+    color: #F2D091;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0rem 1rem;
+}
+
+header .navbar a:hover{
+    color: #D90D1E;
+}
+
+#menu-bar{
+    font-size: 1rem;
+    color: #0d0d0d;
+    background-color: #ccc;
+    border: 10px solid #ccc;
+    cursor: pointer;
+    display: none;
+}
+
+header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media(max-width: 991px) {
+    
+}
+
+@media(max-width: 768px) {
+    #menu-bar{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #0D0D0D;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar a{
+        margin: 0.50rem;
+        padding: 0.50rem;
+        display: block;
+        border-left: 0.30rem solid #F2D091;
+    }
+    header .navbar a:hover{
+        color: #D90D1E;
+        border-left: 0.30rem solid #D90D1E;
+
+    }
+}
+
+@media(max-width: 400px) {
+    
+}

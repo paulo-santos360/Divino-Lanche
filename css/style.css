@@ -101,7 +101,31 @@ header .navbar.active{
 }
 
 /*Destaque-top fim */
+
+.lanches-specialidades{
+    width: 80%;
+    margin: 0  auto;
+}
+
+.lanches-specialidades h2{
+    color: #D90D1E;
+    text-align: center;
+}
     
+.container-lanches{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box-dog{
+    width: 300px;
+}
 
 @media(max-width: 991px) {
     

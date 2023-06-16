@@ -134,7 +134,7 @@ header .navbar.active {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem; 
-  display: none;
+ display: none; 
 } 
 
 .box-dog {

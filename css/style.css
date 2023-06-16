@@ -63,7 +63,7 @@ header .navbar.active {
 .container {
   width: 80%;
   margin: 0 auto;
-  margin-top: 174px;
+  margin-top: 21px;
   display: flex;
   flex-wrap: nowrap;
   gap: 1.5rem;
@@ -150,6 +150,12 @@ header .navbar.active {
     margin-bottom: 39px;
 }
 
+
+/* .box-dog img{
+  width: 200px;
+  height: 200px;
+} */
+
 swiper-container {
   width: 80%;
   height: 80%;
@@ -158,11 +164,11 @@ swiper-container {
 swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  padding-top: 20px;
 }
 
 swiper-slide img {

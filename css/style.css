@@ -22,7 +22,7 @@ body {
 }
 
 header {
-   position: fixed;
+  position: relative; /* Fixed */
   top: 0;
   left: 0;
   right: 0; 
@@ -106,12 +106,11 @@ header .navbar.active {
 .lanches-specialidades {
   width: 80%;
   margin: 0 auto;
-  background-color: #0d0d0d;
   margin-bottom: 30px;
 }
 
 .lanches-specialidades p{
-    color: #f2d091;
+    color: #0d0d0d;
     font-size: 20px;
     text-indent: 40px;
     margin-top: 20px;

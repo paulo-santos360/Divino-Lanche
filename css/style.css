@@ -79,7 +79,7 @@ header .navbar.active {
   font-weight: bolder;
   text-indent: 30px;
   text-transform: uppercase;
-  margin: 30px 0px;
+  margin-bottom: 15px;
 }
 
 .center-top .p-desktop {
@@ -181,7 +181,21 @@ swiper-slide img {
 body {
     position: relative;
     height: 100%;
-  }
+}
+
+.lanches-Delivery{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.lanches-Delivery h2 {
+  color: #d90d1e;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
 @media (max-width: 991px) {
 }
 

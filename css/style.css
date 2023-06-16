@@ -137,6 +137,7 @@ header .navbar.active {
  display: none; 
 } 
 
+
 .box-dog {
   width: 300px;
 } 
@@ -194,6 +195,65 @@ body {
   font-size: 25px;
   text-align: center;
   margin: 30px 0px;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #0d0d0d;
+}
+
+.footer-end{
+  width: 100%;
+  margin: 0 auto; 
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+/* .footer-end img{
+  padding-left: 100px;
+} */
+
+.footer-end .box{
+  width: 300px;
+  color: #f2d091;
+}
+
+.footer-end .box h4{
+  color: #f2d091;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.footer-end .box h4:hover{
+  color: #d90d1e;
+}
+
+.footer-end .box ul{
+  padding-top: 30px;
+}
+
+.footer-end .box ul li a{
+  color: #f2d091;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+.footer-end .box ul li a:hover{
+  color: #d90d1e;
+}
+
+.footer-Copy p{
+  color: #f2d091;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-Copy p:hover{
+  color: #d90d1e;
 }
 
 @media (max-width: 991px) {

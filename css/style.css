@@ -170,10 +170,6 @@ swiper-slide img {
   height: 300px;
   object-fit: cover;
 }
-/* body {
-    position: relative;
-    height: 100%;
-} */
 
 .lanches-Delivery{
   width: 80%;
@@ -212,10 +208,6 @@ footer{
   gap: 5px;
 }
 
-/* .footer-end img{
-  padding-left: 100px;
-} */
-
 .footer-end .box{
   width: 300px;
   color: #f2d091;
@@ -253,6 +245,10 @@ footer{
 
 .footer-Copy p:hover{
   color: #d90d1e;
+}
+
+.img-mobile figcaption{
+  display: none;
 }
 
 @media (max-width: 991px) {

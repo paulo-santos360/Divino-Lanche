@@ -201,6 +201,86 @@ swiper-slide img {
   display: block;
 }
 
+/* Formulario de Contato*/
+.Text-Contato{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-container {
+  text-align: center;
+  margin-top: -22px;
+}
+
+.form-container h2 {
+  color: #d90d1e;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.contact-form {
+  width: 500px;
+ margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form label,
+.contact-form textarea {
+  display: block;
+  padding: 10px;
+  border: 1px solid #EEE;
+  width: 100%;
+  color: #000000;
+}
+
+.contact-form label {
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+.contact-form input {
+  margin-bottom: -3px;
+  border: 1px solid #000000;
+  outline: none;
+}
+
+.contact-form textarea {
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #000000;
+  
+}
+
+.contact-form input[type="submit"] {
+  background-color: #000000;
+  color: #e2fcef;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 300px;
+  margin: 30px auto;
+  border: 2px solid transparent;
+  transition: .5s;
+}
+
+.contact-form input[type="submit"]:hover {
+  border-color: #000000;
+  color: #000000;
+  background-color: #e2fcef;
+}
+
 /*Footer*/
 
 footer{
@@ -364,6 +444,11 @@ footer{
 
   .box-dog p {
     display: none;
+  }
+
+  .map{
+    width: 300px;
+    height: 200px;
   }
   /* .container-lanches{
     display: block;

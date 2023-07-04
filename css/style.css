@@ -219,7 +219,7 @@ swiper-slide img {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 27px;
+  margin-bottom: -6px;
 }
 
 .contact-form {
@@ -260,7 +260,6 @@ swiper-slide img {
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #000000;
-  
 }
 
 .contact-form input[type="submit"] {
@@ -458,6 +457,13 @@ footer{
   }
   .ifood{
     display: block;
+  }
+  .form-container h2{
+    margin-top: 20px;
+  }
+
+  .contact-form{
+    width: 306px;
   }
   .footer-end{
     width: 80%;

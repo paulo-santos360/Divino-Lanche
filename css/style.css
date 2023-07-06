@@ -111,7 +111,7 @@ header .navbar.active {
 .lanches-specialidades{
     color: #000000;
     font-size: 20px;
-    text-indent: 40px;
+ /*    text-indent: 40px; */
     margin-top: 20px;
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -193,6 +193,7 @@ swiper-slide img {
 
 .img-desktop{
   display: block;
+  border-radius: 9px;
 }
 
 .ifood{
@@ -336,6 +337,7 @@ swiper-slide img {
 
 .section img{
   height: 179px;
+  border-radius: 5px;
 }
 
 /*
@@ -432,7 +434,7 @@ Modal
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  margin: 1rem 0 3rem;
+  margin: 2rem 0 4rem;
 }
 
 .image-name:hover{

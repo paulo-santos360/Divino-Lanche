@@ -1,3 +1,38 @@
+//Menu-Hamburguer
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+
+window.onscroll = () =>{
+    //Vai Remover o Menu Hamburguer
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active'); 
+}
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+})
+
+
+ /*Rolagem até o Topo*/
+ const rolagem = ()=> {
+  const html = document.documentElement
+  const seta = document.getElementById('go-top')
+
+  /* Se a rolagem for maior que 550, a seta aparece 
+  abaixo de 550 esconde */
+  if (html.scrollTop > 350 ) {
+    seta.style.display = 'block'
+  } else {
+    seta.style.display = 'none'
+  }
+}
+
+//window.addEventListener('scroll', rolagem)
+window.onscroll = ()=> rolagem()//evento somente para elem q existem no html
+
+
 function getElement(selection) {
   const element = document.querySelector(selection);
   if (element) {

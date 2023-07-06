@@ -125,5 +125,6 @@ class Gallery {
 }
 
 //  const nature = new Gallery(getElement('.nature'));
-// const city = new Gallery(getElement('.city'));
 const house = new Gallery(getElement('.house'));
+const salty = new Gallery(getElement('.salty'));
+const juice = new Gallery(getElement('.juice'));

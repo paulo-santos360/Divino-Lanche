@@ -1,4 +1,4 @@
-# Divino-Lanche
+# Hot-Burgers
 JAVASCRIPT-CSS3-HTML5 site de uma Lanchonete
 
 
